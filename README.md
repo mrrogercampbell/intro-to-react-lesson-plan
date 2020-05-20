@@ -1,11 +1,3 @@
-Delivery Tips:
-
-* Think about how long you're talking
-* Move quicker sooner, slower later
-* Cold Call more often
-* Revisit LOs
-* Defer questions when appropriate
-
 # Intro to React
 
 ## Prerequisites
@@ -131,6 +123,13 @@ Be giving to students as further reading to help solidify lesson concepts and or
 
 # Instructor Prep Section
 This section provides instructors extra details on the break down of this lesson.
+
+## Delivery Tips:
+* Think about how long you're talking
+* Move quicker sooner, slower later
+* Cold Call more often
+* Revisit LOs
+* Defer questions when appropriate
 
 ## Legend:
 - I Do - Instructor led demos
