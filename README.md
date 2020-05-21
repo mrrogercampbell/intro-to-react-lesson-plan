@@ -50,16 +50,19 @@ Section intro which allows the instructor to explain/review the concept of a fra
 A quick review on `DOM manipulation` which will explain the complication you encounter when using DOM manipulation in vanilla JavaScript when dealing with an enterprise-size application
 
 ### Vanilla JS DOM Manipulation Review - Cold Call || Breakout Groups
-- Starter code is provided within lesson repo
-- How to facilitate this: 
+
+`Starter code is provided within lesson repo`
+
+How to facilitate this: 
 	1. Call on a random student for each of the following prompts and have them provide you the code solution.
 	                 OR
 	2. Have students break into small groups (2-3 based off class size) and work through each prompt together.
-Prompt: 
-    - A variable which stores a DOM selector for:
-       -  The `h1` element with a class of `grab-me`
-       -  The `button` element with an `id` of `click-me`
-       -  Define a function that adds a `click event` to the `click-me` button which changes the `innerText` of the selected `h1` element.
+
+- Prompt: 
+	- A variable which stores a DOM selector for:
+	   -  The `h1` element with a class of `grab-me`
+	   -  The `button` element with an `id` of `click-me`
+	   -  Define a function that adds a `click event` to the `click-me` button which changes the `innerText` of the selected `h1` element.
 
 Once they complete this explain to them how cumbersome this can become with dealing with a larger application such as Twitter, Facebook, etc.
 
