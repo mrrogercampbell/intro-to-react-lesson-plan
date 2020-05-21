@@ -36,15 +36,18 @@
 # Lesson Outline:
 
 ## Thinking in React
-This section introduces students to the basic principals of React and how to conceptualize utilizing it while designing and building applications. A key point to touch on here is encapsulation.
+Lesson intro. Talk students through the high-level overview of the principals of React and how to conceptualize utilizing it while designing and building applications. 
+- Key Takeaways:
+	- How React allows you to modularize `Encapsulation`
+	- Reexplaining the concept `Separation of Concerns` and how it is redesigned within React  
 
 ### What is a framework?
-Brief overview explaining:
-- The difference between a `framework` and a `library`
-- The fact that React is commonly misconceived as a `framework` when in fact it is a JavaScript `library`
+Section intro which allows the instructor to explain/review the concept of a framework.
+- Key Takeaways:
+	- The difference between a `framework` and a `library`
+	- The fact that React is commonly misconceived as a `framework` when in fact it is a JavaScript `library`
 ### DOM Manipulation in Vanilla JavaScript
-- Quick review on DOM manipulation
-- Talk about the complication you encounter when using DOM manipulation in vanilla JavaScript when dealing with an enterprise-size application
+A quick review on `DOM manipulation` which will explain the complication you encounter when using DOM manipulation in vanilla JavaScript when dealing with an enterprise-size application
 
 ### Vanilla JS DOM Manipulation Review - Cold Call || Breakout Groups
 -  Starter code is provided within lesson repo
@@ -61,19 +64,24 @@ Once they complete this explain to them how cumbersome this can become with deal
 
 ### The Virtual DOM
 A quick intro to the virtual DOM. 
-Main Takeaways:
+Key Takeaways:
 - The `Virtual DOM` is a JavaScript `object` that represents the true `DOM structure`.
 - The `Virtual DOM` allows us to make changes to the true DOM by first altering the virtual DOM, then it renders the changes for us. 
+- When you update the `DOM` in React:
+	- The entire `virtual DOM` is updated and re-rendered
+	- React can compare the `virtual DOM` previous state and see what changes were made
+	- Only the changed objects are updated on the DOM
+	- Changes on the real `DOM` are then displayed the screen
 
 ### JSX
 Introduce students to `JSX`.
-Main Takeaways:
+Key Takeaways:
 - `JSX` is not `HTML`, it is a a `JavaScript Syntax`
 - `JSX` allows you to write concise `HTML` in you `JavaScript` which `Babel` transforms into actual `JavaScript` code.
 
 ## Components
-Introduce Students too `React Components` by walking them through coding 
-Main Takeaways:
+Highlevel introduction to React `components`.
+Key Takeaways:
 - A React `Component` is a JavaScript `Class` or `Function` that allow you to develop independent and reusable bits of code
 - Have a similar use case as a JavaScript function, but work independently and return HTML via a render function
 - There are two types of components:
@@ -85,78 +93,177 @@ Main Takeaways:
 			- Touch on this but hold off of diving to far in, this will be covered in a later lesson
 
 ### Functional Components
-Something here
-- Main Takeaways:
-	- Basis JavaScript functions
-	- Typically arrow functions
+This section gives an in-depth explanation of `functional` components. Also has 1 `We Do`, where the instructor walks students through the process of writing their first `fucntional` component.
+- Key Takeaways:
+	- A `functional` component is a basis JavaScript function
+	- Typically written as an arrow function
 	- Where considered `dumb` or `stateless` components and were unable to utilize `React lifecycle` methods until the introduction of `React Hooks`
-		- Touch on this but hold off of diving to far in, this will be covered in a later lesson
+		- Touch on this but hold off on diving to far in Hook.They will be covered in a later lesson
 
 
 ### Your First Component - **We Do**
 Walk students through writing out their first functional component. 
-**Prompt and code snippets provided in lesson**
+- Prompt: 
+	- Create a `functional` component called `Hello`
+	- It should render:
+		- `h1` that says `Hello <provide a name of choice>, Welcome to <provide a class name>`
+
+Example: 
+```JSX
+import React from 'react'
+ 
+const Hello = () => {
+    return (
+      <div>
+	      <h1>Hello Jasmin, Welcome to React 101! </h1>
+      </div>
+    )
+}
+ 
+export default Hello
+```
 
 ### Class Components
-- `Main Takeaways:
+- Key Takeaways:
 	- A JavaScript class which extends the `Component` class from ES6
-	- Considered a `smart` and or `stateful` component
-	- Able to utilizes `React lifecycle` methods
+	- `Class` components are considered a `smart` and or `stateful` component
+	- `Class` components are able to utilizes `React lifecycle` methods
 
 ### Your Second Component - **We Do**
-Walk students through writing out their first class component. 
-**Prompt and code snippets provided in lesson**
+Walk students through converting the `function` component they created in the last `We Do` into a class component.
+- Prompt: 
+	- Create a `class` component called `Hello`
+	- It should render:
+		- `h1` that says `Hello <provide a name of choice>, Welcome to <provide a class name>`
+
+Example: 
+```JSX
+import React from 'react'
+ 
+class Hello extends React.Component {
+  render() {
+    return (
+      <div>
+	      <h1>Hello Jasmin, Welcome to React 101! </h1>
+      </div>
+    )
+  }
+}
+export default Hello
+```
 
 ### Class vs Functional
 A brief explanation of when to use which and the pain points associated with each.
-- Main Takeaways:
-	- At inception it the running rule was to use `Class components` when you wanted to utilize `state` and `Function components` when you just wanted to render data via `props` and or `staticly`
+- Key Takeaways:
+	- At inception the running rule was to use `Class components` when you wanted to utilize `state` and `Function components` when you just wanted to render static data and or data stored within `props`
 	- Yet with the introduction  of `React Hooks` that all went out the window
 		- Facebook's official recommendation is to use `functional` components whenever possible
 			- Although many Developers and Engineer debate this point
 
 ### Build Two Components - **You Do**
 Have students create a `functional` and `class` component on their own.
-**Prompt provided in the lesson**
+Prompt:
+	- Create a `class` and a `function` component that:
+		- Renders a `h1` that says `Hello, my name is <type-your-name-here>. I am from <type-the-name-of-hometown-here>`
 
 ## Props and State
-This is a brief overview of what is to be covered in the following sections: **Props** and **State**. 
+This is a brief high-level overview of what will be covered in the **Props** and **State** sections.
 
 ### Props
-- Main Takeaways:
+- Key Takeaways:
 	- `Props` is short for `properties`
 	- `Props` are variables which store data
 	- `Props` are `immutable`, meaning their value can not be changed
 	- `Props` are passed into a component by its `parent` component
 
 ### Rendering Props - I Do
-Build a `Functional` and `Class` component which both render `props`. 
+Demonstrate to students how to write a `Functional` and `Class` component which both render `props`.
+ 
+Example: 
+```JSX
+import React from "react";
+import "./styles.css";
+
+const Hello = props => {
+  return (
+    <div>
+      <h1>
+        Hello {props.name}, Welcome to {props.class}!{" "}
+      </h1>
+    </div>
+  );
+};
+
+const App = props => {
+  return (
+    <div>
+      <Hello name={"Jasmin"} class={"React 101"} />
+    </div>
+  );
+};
+
+export default App;
+```
 
 ### State
-- Main Takeaways:
-	- `State` is an JavaScrip object which is defined in the constructor of a `Class component`
+- Key Takeaways:
+	- `State` is a JavaScrip object which is defined in the constructor of a `Class component`
 	- `State`'s purpose is to hold data for a component
-	- You are able to define variables with in `state` which can be accessed and rendered with in the component
-	- `State` can also be pass the components's children components in the form a `Prop`
+	- You define variables within `state` which in turn can be accessed and rendered within a component
+	- A parent component can pass it's own `state` to a child component in the form a `prop`
 
 ### Rendering State - I Do
 Build a `Class` component that renders `state`. 
 
+Example:
+```jsx
+import React from "react";
+import "./styles.css";
+
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      name: "Jasmin",
+      class: "React 101"
+    };
+  }
+  
+  render() {
+    return (
+      <div>
+        <h1>
+          Hello {this.state.name}, Welcome to {this.state.class}!
+        </h1>
+      </div>
+    );
+  }
+}
+export default App;
+
+```
+
 ### Passing State and Rendering State - I Do
-Utilize the `Class` component you just built and:
-1. Replace the `JSX` you wrote with the `Functional` component you created earlier
-2. Pass the `State` of the class component into the `Functional` component as `props`
-3. Rework the `Functional` components `render` method so that the `JSX` is utilizing the `props` that were passed into the component 
+Prompt: 
+- Create a `function` component called `Hello`
+	- It should expect to take in 2 `props`: `name` and `class` and render them in the following sentence:
+		- Hello <name-goes-here>, welcome to <class-goes-here>!
+- Refactor your previously created the `App` `Class` component so that it:
+	- Renders the `Hello` component as a child
+	- Passes the `Hello` component the all the data stored within its `state`; ie: `name` and `class`
+**Solution provided inside the lesson**
 
 ### How do you conceptualize props and state - **Turn and Discuss**
 Have student turn to their neighbor and discuss the following amongst themselves for 10 mins:
     - How they conceptualize props and state
     - What is the difference between prompts and state
-**Provide a few more here**
-Once 10 mins have lapsed call on one group for each prompt and have them explain what they discussed in regards to it.
+    - Talk about an instance within an application where they might need to pass `state` to another component
+    - When might they need to only use `props` within a component
+
+Once 10 mins have lapsed, call on one group for each prompt and have them explain what they discussed.
 
 ## Check for Understanding
-This section is meant to provide multiple assessments that instructors can utilize to test and quantify student understand of the lesson.
+This section is meant to provide multiple assessments that instructors can utilize to test and quantify student understanding of the lesson.
 
 Assessment Questions:
 - Is React a `library` or a `framework`
@@ -170,6 +277,7 @@ Assessment Questions:
     - `Class Components`
     - `Props`
     - `State`
+- 
 
 ## Further Reading
 - Be giving to students as further reading to help solidify lesson concepts and or allow advance student more material to learn from 
