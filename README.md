@@ -21,17 +21,39 @@
         - Class and Function Components
     - Be able to define and discuss all words in the `Vocabulary` section below
 
-## Vocabulary
+# Table of Content
+- [Intro to React](#intro-to-react)
+  * [Prerequisites](#prerequisites)
+  * [Learning Objectives](#learning-objectives)
+- [Table of Content](#table-of-content)
+- [Lesson Outline:](#lesson-outline-)
+  * [Thinking in React -](#thinking-in-react--)
+    + [What is a framework?](#what-is-a-framework-)
+    + [DOM Manipulation in Vanilla JavaScript](#dom-manipulation-in-vanilla-javascript)
+    + [Vanilla JS DOM Manipulation Review - Cold Call || Breakout Groups](#vanilla-js-dom-manipulation-review---cold-call----breakout-groups)
+    + [The Virtual DOM](#the-virtual-dom)
+    + [JSX](#jsx)
+  * [Components](#components)
+    + [Functional Components](#functional-components)
+    + [Your First Component - **We Do**](#your-first-component-----we-do--)
+    + [Class Components](#class-components)
+    + [Your Second Component - **We Do**](#your-second-component-----we-do--)
+    + [Class vs Functional](#class-vs-functional)
+    + [Build Two Components - **You Do**](#build-two-components-----you-do--)
+  * [Props and State](#props-and-state)
+    + [Props](#props)
+    + [Rendering Props - I Do](#rendering-props---i-do)
+    + [State](#state)
+    + [Rendering State - I Do](#rendering-state---i-do)
+    + [Passing State and Rendering State - I Do](#passing-state-and-rendering-state---i-do)
+    + [How do you conceptualize props and state - **Turn and Discuss**](#how-do-you-conceptualize-props-and-state-----turn-and-discuss--)
+  * [Check for Understanding](#check-for-understanding)
+- [Instructor Prep Section](#instructor-prep-section)
+- [Delivery Tips:](#delivery-tips-)
+  * [Legend:](#legend-)
+  * [Prep Resources](#prep-resources)
+- [Survey and Feedback](#survey-and-feedback)
 
-- `Framework`
-- `library`
-- `Virtual DOM`
-- `JSX`
-- `Components`
-- `Functional Components`
-- `Class Components`
-- `Props`
-- `State`
 
 # Lesson Outline:
 
@@ -79,27 +101,23 @@ A quick introduction to the `virtual DOM`.
 Introduce students to `JSX`.
 
 **Key Takeaways**:
-- `JSX` is not `HTML`, it is a a `JavaScript Syntax`
-- `JSX` allows you to write concise `HTML` in you `JavaScript` which `Babel` transforms into actual `JavaScript` code.
+- `JSX` is not `HTML`, it is a `JavaScript Syntax`
+- `JSX` allows you to write concise `HTML` in `JavaScript` which `Babel` transforms into actual `JavaScript` code.
 
 ## Components
 An introduction to React `components`.
 
 **Key Takeaways**:
-- A React `Component` is a JavaScript `Class` or `Function` that allow you to develop independent and reusable bits of code
-- Have a similar use case as a JavaScript function, but work independently and return HTML via a render function
+- A React `Component` is a JavaScript `Class` or `Function` that allows you to develop independent and reusable bits of code
+- Components have a similar use case as a JavaScript function, but work independently and return `JSX` via a render method which is compiled into `JavaSript` and `HTML`
 - There are two types of components:
 	1. `Class` components:
 	1. `Function` components:
-		- Basis JavaScript functions
-		- Typically arrow functions
-		- Where considered `dumb` or `stateless` components and were unable to utilize `React lifecycle` methods until the introduction of `React Hooks`
-			- Touch on this but hold off of diving too far in, this will be covered in a later lesson
-
+		
 ### Functional Components
 This section gives an in-depth explanation of `functional` components. It also has 1 `We Do`, where the instructor walks students through the process of writing their first `functional` component.
 
-Key Takeaways:
+**Key Takeaways**:
 - A `functional` component is a basis JavaScript function
 - Typically written as an arrow function
 - Where considered `dumb` or `stateless` components and were unable to utilize `React lifecycle` methods until the introduction of `React Hooks`
@@ -170,9 +188,10 @@ A brief explanation of when to use which and the pain points associated with eac
 
 ### Build Two Components - **You Do**
 Have students create a `functional` and `class` component on their own.
-Prompt:
-	- Create a `class` and a `function` component that:
-		- Renders a `h1` that says `Hello, my name is <type-your-name-here>. I am from <type-the-name-of-hometown-here>`
+
+**Prompts**:
+- Create a `class` and a `function` component that:
+- Renders a `h1` that says `Hello, my name is <type-your-name-here>. I am from <type-the-name-of-hometown-here>`
 
 ## Props and State
 This is a brief high-level overview of what will be covered in the **Props** and **State** sections.
@@ -275,7 +294,7 @@ Once 10 mins have elapsed, call on one group for each prompt, and have them expl
 ## Check for Understanding
 This section is meant to provide multiple assessments that instructors can utilize to test and quantify student understanding of the lesson.
 
-Assessment Questions:
+**Assessment Questions**:
 - Is React a `library` or a `framework`
 - What are the two main types of components you can declare in react?
 - When should you use a `function` component over a `class` component?
