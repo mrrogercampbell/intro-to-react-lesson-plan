@@ -51,9 +51,7 @@ A quick review on `DOM manipulation` which will explain the complication you enc
 
 ### Vanilla JS DOM Manipulation Review - Cold Call || Breakout Groups
 
-`Starter code is provided within lesson repo`
-
-How to facilitate this: 
+Depending on class size:
 1. Call on a random student for each of the following prompts and have them provide you the code solution.
 	             OR
 2. Have students break into small groups (2-3 based off class size) and work through each prompt together.
