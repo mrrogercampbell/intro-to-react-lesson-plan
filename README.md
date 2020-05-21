@@ -55,11 +55,11 @@ Depending on class size use one of the following:
 1. Call on a random student for each of the following prompts and have them provide you the code solution.
 2. Have students break into small groups (2-3 based off class size) and work through each prompt together.
 
-- **Prompts**: 
-	- A variable which stores a DOM selector for:
-	   -  The `h1` element with a class of `grab-me`
-	   -  The `button` element with an `id` of `click-me`
-	   -  Define a function that adds a `click event` to the `click-me` button which changes the `innerText` of the selected `h1` element.
+**Prompts**: 
+- Create a variable which stores a DOM selector for:
+	- The `h1` element with a class of `grab-me`
+	- The `button` element with an `id` of `click-me`
+	- Define a function that adds a `click event` to the `click-me` button which changes the `innerText` of the selected `h1` element.
 
 Once they complete this explain to them how cumbersome this can become with dealing with a larger application such as Twitter, Facebook, etc.
 
@@ -133,7 +133,7 @@ export default Hello
 
 ### Your Second Component - **We Do**
 Walk students through converting the `function` component they created in the last `We Do` into a class component.
-**Prompts**: 
+**Prompts**:
 - Create a `class` component called `Hello`
 - It should render:
 	- `h1` that says `Hello <provide a name of choice>, Welcome to <provide a class name>`
