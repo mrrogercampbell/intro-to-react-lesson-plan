@@ -63,7 +63,7 @@ Once they complete this explain to them how cumbersome this can become with deal
 
 
 ### The Virtual DOM
-A quick intro to the virtual DOM. 
+A quick introduction to the `virtual DOM`. 
 Key Takeaways:
 - The `Virtual DOM` is a JavaScript `object` that represents the true `DOM structure`.
 - The `Virtual DOM` allows us to make changes to the true DOM by first altering the virtual DOM, then it renders the changes for us. 
@@ -80,7 +80,7 @@ Key Takeaways:
 - `JSX` allows you to write concise `HTML` in you `JavaScript` which `Babel` transforms into actual `JavaScript` code.
 
 ## Components
-Highlevel introduction to React `components`.
+High level introduction to React `components`.
 Key Takeaways:
 - A React `Component` is a JavaScript `Class` or `Function` that allow you to develop independent and reusable bits of code
 - Have a similar use case as a JavaScript function, but work independently and return HTML via a render function
@@ -90,15 +90,15 @@ Key Takeaways:
 		- Basis JavaScript functions
 		- Typically arrow functions
 		- Where considered `dumb` or `stateless` components and were unable to utilize `React lifecycle` methods until the introduction of `React Hooks`
-			- Touch on this but hold off of diving to far in, this will be covered in a later lesson
+			- Touch on this but hold off of diving too far in, this will be covered in a later lesson
 
 ### Functional Components
-This section gives an in-depth explanation of `functional` components. Also has 1 `We Do`, where the instructor walks students through the process of writing their first `fucntional` component.
+This section gives an in-depth explanation of `functional` components. It also has 1 `We Do`, where the instructor walks students through the process of writing their first `functional` component.
 - Key Takeaways:
 	- A `functional` component is a basis JavaScript function
 	- Typically written as an arrow function
 	- Where considered `dumb` or `stateless` components and were unable to utilize `React lifecycle` methods until the introduction of `React Hooks`
-		- Touch on this but hold off on diving to far in Hook.They will be covered in a later lesson
+		- Touch on this but hold off on diving too far in Hook. They will be covered in a later lesson
 
 
 ### Your First Component - **We Do**
@@ -155,7 +155,7 @@ export default Hello
 ### Class vs Functional
 A brief explanation of when to use which and the pain points associated with each.
 - Key Takeaways:
-	- At inception the running rule was to use `Class components` when you wanted to utilize `state` and `Function components` when you just wanted to render static data and or data stored within `props`
+	- At inception, the running rule was to use `Class components` when you wanted to utilize `state` and `Function components` when you just wanted to render static data and or data stored within `props`
 	- Yet with the introduction  of `React Hooks` that all went out the window
 		- Facebook's official recommendation is to use `functional` components whenever possible
 			- Although many Developers and Engineer debate this point
@@ -260,13 +260,16 @@ Have student turn to their neighbor and discuss the following amongst themselves
     - Talk about an instance within an application where they might need to pass `state` to another component
     - When might they need to only use `props` within a component
 
-Once 10 mins have lapsed, call on one group for each prompt and have them explain what they discussed.
+Once 10 mins have elapsed, call on one group for each prompt, and have them explain what they discussed.
 
 ## Check for Understanding
 This section is meant to provide multiple assessments that instructors can utilize to test and quantify student understanding of the lesson.
 
 Assessment Questions:
 - Is React a `library` or a `framework`
+- What are the two main types of components you can declare in react?
+- When should you use a `function` component over a `class` component?
+- How do you pass the `state` of one component to another?
 - Have each student in their own words define the following vocabulary words:
     - `Framework`
     - `library`
@@ -277,10 +280,6 @@ Assessment Questions:
     - `Class Components`
     - `Props`
     - `State`
-- 
-
-## Further Reading
-- Be giving to students as further reading to help solidify lesson concepts and or allow advance student more material to learn from 
 
 # Instructor Prep Section
 This section provides instructors extra details on the break down of this lesson.
@@ -312,11 +311,15 @@ This section provides instructors extra details on the break down of this lesson
 ## Prep Resources
 This section is meant to provide instructor helpful links that will assist them in preparing to teach this lesson. It should contain any resources that Curriculum Engineers used to write the lesson.
 
-# Lesson Plan - Review Notes
-This section is meant to collect instructor feedback on the lesson and lesson plan. **Could perhaps provide a link to a google form which asked the below questions**
-Survey Questions:
-1. Are the learning objectives present and complete?
-2. What is the ratio of talking vs. doing? (60/40, TT/ST-wg vs ST-sg / individual)
-3. What is the level of engagement?
-4. Are exercise plans present?
-5. Any pitfalls with the exercises?       
+These links can also be helpful additions to provide students as aides to dive further into the concepts taught within this lesson.
+
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [React Docs: Tutorial - Intro to React](https://reactjs.org/tutorial/tutorial.html)
+- [W3Schools: React Tutorial](https://www.w3schools.com/react/)
+- [Scotch.io: Getting Started with React](https://scotch.io/starters/react/getting-started-with-react-2019-edition)
+- [React: The Virtual DOM](https://www.codecademy.com/articles/react-virtual-dom)
+- [How to Learn React: A Five-Step Plan](https://www.lullabot.com/articles/how-to-learn-react)
+- [A React Job Interview - Recruiter Perspective](https://medium.com/@baphemot/a-react-job-interview-recruiter-perspective-f1096f54dd16)
+
+# Survey and Feedback
+The Curriculum team loves constructive and creative feedback. Please feel free to fill out this survey and feedback [form](https://forms.gle/yaiUyN4YDSxFLp1s6) and we will do our best to accommodate your requests.       
