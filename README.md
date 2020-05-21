@@ -51,12 +51,11 @@ A quick review on `DOM manipulation` which will explain the complication you enc
 
 ### Vanilla JS DOM Manipulation Review - Cold Call || Breakout Groups
 
-Depending on class size:
+Depending on class size use one of the following:
 1. Call on a random student for each of the following prompts and have them provide you the code solution.
-	             OR
 2. Have students break into small groups (2-3 based off class size) and work through each prompt together.
 
-- Prompt: 
+- **Prompts**: 
 	- A variable which stores a DOM selector for:
 	   -  The `h1` element with a class of `grab-me`
 	   -  The `button` element with an `id` of `click-me`
@@ -106,7 +105,7 @@ This section gives an in-depth explanation of `functional` components. It also h
 
 ### Your First Component - **We Do**
 Walk students through writing out their first functional component. 
-- Prompt: 
+- **Prompts**: 
 	- Create a `functional` component called `Hello`
 	- It should render:
 		- `h1` that says `Hello <provide a name of choice>, Welcome to <provide a class name>`
@@ -134,10 +133,10 @@ export default Hello
 
 ### Your Second Component - **We Do**
 Walk students through converting the `function` component they created in the last `We Do` into a class component.
-- Prompt: 
-	- Create a `class` component called `Hello`
-	- It should render:
-		- `h1` that says `Hello <provide a name of choice>, Welcome to <provide a class name>`
+**Prompts**: 
+- Create a `class` component called `Hello`
+- It should render:
+	- `h1` that says `Hello <provide a name of choice>, Welcome to <provide a class name>`
 
 Example: 
 ```JSX
@@ -247,7 +246,7 @@ export default App;
 ```
 
 ### Passing State and Rendering State - I Do
-Prompt: 
+Prompts: 
 - Create a `function` component called `Hello`
 	- It should expect to take in 2 `props`: `name` and `class` and render them in the following sentence:
 		- Hello <name-goes-here>, welcome to <class-goes-here>!
