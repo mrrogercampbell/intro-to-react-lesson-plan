@@ -1,8 +1,8 @@
 # Intro to React
 
 ## Prerequisites
-* JavaScript Fundamentals:
-* Understanding with OOP
+* JavaScript Fundamentals
+* Understanding of OOP
 * Basic Data Types
 
 ## Learning Objectives
@@ -35,11 +35,11 @@
 
 # Lesson Outline:
 
-## Thinking in React
-Lesson intro. Talk students through the high-level overview of the principals of React and how to conceptualize utilizing it while designing and building applications. 
+## Thinking in React - 
+This section gives an overview of the principals of React and how to conceptualize utilizing it while designing and building applications. 
 - Key Takeaways:
 	- How React allows you to modularize `Encapsulation`
-	- Reexplaining the concept `Separation of Concerns` and how it is redesigned within React  
+	- Review `Separation of Concerns` and how it is redesigned within React  
 
 ### What is a framework?
 Section intro which allows the instructor to explain/review the concept of a framework.
@@ -50,10 +50,12 @@ Section intro which allows the instructor to explain/review the concept of a fra
 A quick review on `DOM manipulation` which will explain the complication you encounter when using DOM manipulation in vanilla JavaScript when dealing with an enterprise-size application
 
 ### Vanilla JS DOM Manipulation Review - Cold Call || Breakout Groups
--  Starter code is provided within lesson repo
--  Call on a random student for each of the following prompts and have them provide you the code solution.
-                OR
-- Have students break into small groups (2-3 based off class size) and work through each prompt together
+- Starter code is provided within lesson repo
+- How to facilitate this: 
+	1. Call on a random student for each of the following prompts and have them provide you the code solution.
+	                 OR
+	2. Have students break into small groups (2-3 based off class size) and work through each prompt together.
+Prompt: 
     - A variable which stores a DOM selector for:
        -  The `h1` element with a class of `grab-me`
        -  The `button` element with an `id` of `click-me`
