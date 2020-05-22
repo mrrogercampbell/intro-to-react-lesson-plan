@@ -11,7 +11,7 @@ I have broken the entire document up by specific headers which represents the fo
     - This delineates the beginning of a sub-section within the lesson.
     - Within the actual lesson a `H2` will always have a paragraph or two which cover initial concepts and talking points
     - These paragraphs will set the tone for the information that will be covered within the sub-section.
-- `H3 or ###`: Is the content that explains the concepts in detail via instructor explanations, interactive demos, individual activities, group activity, and more.
+- `H3 or ###`: Is the content that explains the concepts in detail via instructor explanations, interactive demos, individual activities, group activity, and more
 
 [Click here](https://github.com/rc1336/intro-to-react-lesson-plan/blob/master/lesson-plan.md) to see Lesson Plan
 

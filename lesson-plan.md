@@ -1,3 +1,5 @@
+# Intro to React
+
 # Instructor Prep Section
 This section provides instructors extra details on the break down of this lesson.
 
@@ -49,12 +51,13 @@ This section is meant to provide instructor helpful links that will assist them 
 </details>
 
 # Table of Content
+- [Intro to React](#intro-to-react)
 - [Instructor Prep Section](#instructor-prep-section)
   - [Legend](#legend)
   - [Delivery Tips](#delivery-tips)
   - [Prep Resources](#prep-resources)
 - [Table of Content](#table-of-content)
-- [Lesson Outline: Intro to React](#lesson-outline-intro-to-react)
+- [Lesson Outline](#lesson-outline)
   - [Prerequisites](#prerequisites)
   - [Learning Objectives](#learning-objectives)
   - [Thinking in React](#thinking-in-react)
@@ -80,7 +83,7 @@ This section is meant to provide instructor helpful links that will assist them 
   - [Check for Understanding](#check-for-understanding)
 - [Survey and Feedback](#survey-and-feedback)
 
-# Lesson Outline: Intro to React
+# Lesson Outline
 
 ## Prerequisites
 * JavaScript Fundamentals
