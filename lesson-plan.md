@@ -1,5 +1,5 @@
 # Intro to React
-
+![](name-of-giphy.gif)
 # Instructor Prep Section
 This section provides instructors extra details on the break down of this lesson.
 
