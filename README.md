@@ -295,11 +295,12 @@ Once 10 mins have elapsed, call on one group for each prompt, and have them expl
 This section is meant to provide multiple assessments that instructors can utilize to test and quantify student understanding of the lesson.
 
 **Assessment Questions**:
-- Is React a `library` or a `framework`
-- What are the two main types of components you can declare in react?
-- When should you use a `function` component over a `class` component?
-- How do you pass the `state` of one component to another?
-- Have each student in their own words define the following vocabulary words:
+1. Is React a `library` or a `framework`
+2. What are the two main types of components you can declare in react?
+3. When should you use a `function` component over a `class` component?
+4. What is the difference between `props` and `state`?
+4. How do you pass the `state` of one component to another?
+5. Have each student in their own words define the following vocabulary words:
     - `Framework`
     - `library`
     - `Virtual DOM`
