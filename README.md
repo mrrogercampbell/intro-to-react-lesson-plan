@@ -23,45 +23,44 @@
 
 # Table of Content
 - [Intro to React](#intro-to-react)
-  * [Prerequisites](#prerequisites)
-  * [Learning Objectives](#learning-objectives)
+  - [Prerequisites](#prerequisites)
+  - [Learning Objectives](#learning-objectives)
 - [Table of Content](#table-of-content)
-- [Lesson Outline:](#lesson-outline-)
-  * [Thinking in React -](#thinking-in-react--)
-    + [What is a framework?](#what-is-a-framework-)
-    + [DOM Manipulation in Vanilla JavaScript](#dom-manipulation-in-vanilla-javascript)
-    + [Vanilla JS DOM Manipulation Review - Cold Call || Breakout Groups](#vanilla-js-dom-manipulation-review---cold-call----breakout-groups)
-    + [The Virtual DOM](#the-virtual-dom)
-    + [JSX](#jsx)
-  * [Components](#components)
-    + [Functional Components](#functional-components)
-    + [Your First Component - **We Do**](#your-first-component-----we-do--)
-    + [Class Components](#class-components)
-    + [Your Second Component - **We Do**](#your-second-component-----we-do--)
-    + [Class vs Functional](#class-vs-functional)
-    + [Build Two Components - **You Do**](#build-two-components-----you-do--)
-  * [Props and State](#props-and-state)
-    + [Props](#props)
-    + [Rendering Props - I Do](#rendering-props---i-do)
-    + [State](#state)
-    + [Rendering State - I Do](#rendering-state---i-do)
-    + [Passing State and Rendering State - I Do](#passing-state-and-rendering-state---i-do)
-    + [How do you conceptualize props and state - **Turn and Discuss**](#how-do-you-conceptualize-props-and-state-----turn-and-discuss--)
-  * [Check for Understanding](#check-for-understanding)
+- [Lesson Outline:](#lesson-outline)
+  - [Thinking in React](#thinking-in-react)
+    - [What is a framework?](#what-is-a-framework)
+    - [DOM Manipulation in Vanilla JavaScript](#dom-manipulation-in-vanilla-javascript)
+    - [Vanilla JS DOM Manipulation Review: Cold Call or Breakout Groups](#vanilla-js-dom-manipulation-review-cold-call-or-breakout-groups)
+    - [The Virtual DOM](#the-virtual-dom)
+    - [JSX](#jsx)
+  - [Components](#components)
+    - [Functional Components](#functional-components)
+    - [Your First Component: We Do](#your-first-component-we-do)
+    - [Class Components](#class-components)
+    - [Your Second Component: We Do](#your-second-component-we-do)
+    - [Class vs Functional](#class-vs-functional)
+    - [Build Two Components: You Do](#build-two-components-you-do)
+  - [Props and State](#props-and-state)
+    - [Props](#props)
+    - [Rendering Props: I Do](#rendering-props-i-do)
+    - [State](#state)
+    - [Rendering State: I Do](#rendering-state-i-do)
+    - [Passing State and Rendering State: I Do](#passing-state-and-rendering-state-i-do)
+    - [How do you conceptualize props and state: Turn and Discuss](#how-do-you-conceptualize-props-and-state-turn-and-discuss)
+  - [Check for Understanding](#check-for-understanding)
 - [Instructor Prep Section](#instructor-prep-section)
-- [Delivery Tips:](#delivery-tips-)
-  * [Legend:](#legend-)
-  * [Prep Resources](#prep-resources)
+  - [Delivery Tips](#delivery-tips)
+  - [Legend](#legend)
+  - [Prep Resources](#prep-resources)
 - [Survey and Feedback](#survey-and-feedback)
-
 
 # Lesson Outline:
 
-## Thinking in React - 
-This section gives an overview of the principals of React and how to conceptualize utilizing it while designing and building applications. 
+## Thinking in React
+This section gives an overview of the principals of React and how to conceptualize utilizing it while designing and building applications.
 - Key Takeaways:
 	- How React allows you to modularize `Encapsulation`
-	- Review `Separation of Concerns` and how it is redesigned within React  
+	- Review `Separation of Concerns` and how it is redesigned within React
 
 ### What is a framework?
 Section intro which allows the instructor to explain/review the concept of a framework.
@@ -71,26 +70,26 @@ Section intro which allows the instructor to explain/review the concept of a fra
 ### DOM Manipulation in Vanilla JavaScript
 A quick review on `DOM manipulation` which will explain the complication you encounter when using DOM manipulation in vanilla JavaScript when dealing with an enterprise-size application
 
-### Vanilla JS DOM Manipulation Review - Cold Call || Breakout Groups
+### Vanilla JS DOM Manipulation Review: Cold Call or Breakout Groups
 
 Depending on class size use one of the following:
 1. Call on a random student for each of the following prompts and have them provide you the code solution.
 2. Have students break into small groups (2-3 based off class size) and work through each prompt together.
 
-**Prompts**: 
+**Prompts**:
 - Create a variable which stores a DOM selector for:
 	- The `h1` element with a class of `grab-me`
 	- The `button` element with an `id` of `click-me`
-- Define a function that adds a `click event` to the `click-me` button which changes the `innerText` of the selected `h1` element.
+- Define a function that adds a `click event` to the `click-me` button which changes the `innerText` of the selected `h1` element
 
-Once they complete this, talk about how cumbersome `DOM Manipluation` can become when dealing with a larger application such as Twitter, Facebook, etc.
+Once they complete this, talk about how cumbersome `DOM Manipulation` can become when dealing with a larger application such as Twitter, Facebook, etc.
 
 ### The Virtual DOM
-A quick introduction to the `virtual DOM`. 
+A quick introduction to the `virtual DOM`.
 
 **Key Takeaways**:
 - The `Virtual DOM` is a JavaScript `object` that represents the true `DOM structure`.
-- The `Virtual DOM` allows us to make changes to the true DOM by first altering the virtual DOM, then it renders the changes for us. 
+- The `Virtual DOM` allows us to make changes to the true DOM by first altering the virtual DOM, then it renders the changes for us.
 - When you update the `DOM` in React:
 	- The entire `virtual DOM` is updated and re-rendered
 	- React can compare the `virtual DOM` previous state and see what changes were made
@@ -102,74 +101,77 @@ Introduce students to `JSX`.
 
 **Key Takeaways**:
 - `JSX` is not `HTML`, it is a `JavaScript Syntax`
-- `JSX` allows you to write concise `HTML` in `JavaScript` which `Babel` transforms into actual `JavaScript` code.
+- `JSX` allows you to write concise `HTML` in `JavaScript` which `Babel` transforms into actual `JavaScript` code
 
 ## Components
 An introduction to React `components`.
 
 **Key Takeaways**:
 - A React `Component` is a JavaScript `Class` or `Function` that allows you to develop independent and reusable bits of code
-- Components have a similar use case as a JavaScript function, but work independently and return `JSX` via a render method which is compiled into `JavaSript` and `HTML`
+- Components have a similar use case as a JavaScript function, but work independently and return `JSX` via a render method which is compiled into `JavaScript` and `HTML`
 - There are two types of components:
-	1. `Class` components:
-	1. `Function` components:
-		
+	1. `Class` components
+	1. `Function` components
+
 ### Functional Components
-This section gives an in-depth explanation of `functional` components. It also has 1 `We Do`, where the instructor walks students through the process of writing their first `functional` component.
+This section gives an in-depth explanation of `functional` components.
 
 **Key Takeaways**:
-- A `functional` component is a basis JavaScript function
+- A `functional` component is a basic JavaScript function
 - Typically written as an arrow function
-- Where considered `dumb` or `stateless` components and were unable to utilize `React lifecycle` methods until the introduction of `React Hooks`
-	- Touch on this but hold off on diving too far in Hook. They will be covered in a later lesson
+- They were considered `dumb` or `stateless` components because they were unable to utilize `React lifecycle` methods until the introduction of `React Hooks`
+  - Touch on this but hold off on diving too far into `Hook`
+    - They will be covered in a later lesson
 
 
-### Your First Component - **We Do**
+### Your First Component: We Do
 Walk students through writing out their first functional component.
- 
- **Prompts**: 
+
+ **Prompts**:
 - Create a `functional` component called `Hello`
 - It should render:
 	- `h1` that says `Hello <provide a name of choice>, Welcome to <provide a class name>`
 
-Example: 
+Example:
 ```JSX
 import React from 'react'
- 
-const Hello = () => {
+
+const Mantra = () => {
     return (
       <div>
-	      <h1>Hello Jasmin, Welcome to React 101! </h1>
+	      <h1>This is the Way!</h1>
       </div>
     )
 }
- 
-export default Hello
+
+export default Mantra
 ```
 
 ### Class Components
-**Key Takeaways**:
-- A JavaScript class which extends the `Component` class from ES6
-- `Class` components are considered a `smart` and or `stateful` component
-- `Class` components are able to utilizes `React lifecycle` methods
+This section gives an in-depth explanation of `class` components.
 
-### Your Second Component - **We Do**
-Walk students through converting the `function` component they created in the last `We Do` into a class component.
+**Key Takeaways**:
+- `Class` components extend the ES6 JavaScript class `Component`
+- `Class` components are considered a `smart` and or `stateful` components
+- `Class` components are able to utilize `React lifecycle` methods
+
+### Your Second Component: We Do
+Walk students through converting the `functional` component they created in the last `We Do` into a class component.
 
 **Prompts**:
 - Create a `class` component called `Hello`
 - It should render:
 	- `h1` that says `Hello <provide a name of choice>, Welcome to <provide a class name>`
 
-Example: 
+Example:
 ```JSX
 import React from 'react'
- 
+
 class Hello extends React.Component {
   render() {
     return (
       <div>
-	      <h1>Hello Jasmin, Welcome to React 101! </h1>
+	      <h1>Hello Spyro, Welcome to firefighting 101!  </h1>
       </div>
     )
   }
@@ -186,15 +188,22 @@ A brief explanation of when to use which and the pain points associated with eac
 	- Facebook's official recommendation is to use `functional` components whenever possible
 		- Although many Developers and Engineer debate this point
 
-### Build Two Components - **You Do**
+### Build Two Components: You Do
 Have students create a `functional` and `class` component on their own.
 
 **Prompts**:
-- Create a `class` and a `function` component that:
-- Renders a `h1` that says `Hello, my name is <type-your-name-here>. I am from <type-the-name-of-hometown-here>`
+1. Create a `class` component that:
+   - Renders a `h1` that says `Hello, my name is <type-your-name-here>. I am from <type-the-name-of-hometown-here>`
+2. Create a `functional` component that:
+   - Renders a `h1` that says `Hello, my name is <type-your-name-here>. I am from <type-the-name-of-hometown-here>`
 
 ## Props and State
-This is a brief high-level overview of what will be covered in the **Props** and **State** sections.
+This section intro is an overview of what students will learn in the **Props** and **State** sections below.
+
+**Key Takeaways**:
+- React is a front end library
+- It allows developers to rapidly build front end web applications
+- React alleviates the heavy lift a developers has to do when working with Vanilla JavaScript, HTML, and CSS.
 
 ### Props
 **Key Takeaways**:
@@ -203,19 +212,19 @@ This is a brief high-level overview of what will be covered in the **Props** and
 - `Props` are `immutable`, meaning their value can not be changed
 - `Props` are passed into a component by its `parent` component
 
-### Rendering Props - I Do
+### Rendering Props: I Do
 Demonstrate to students how to write a `Functional` and `Class` component which both render `props`.
- 
-Example: 
+
+Example:
 ```JSX
 import React from "react";
 import "./styles.css";
 
-const Hello = props => {
+const Greeting = props => {
   return (
     <div>
       <h1>
-        Hello {props.name}, Welcome to {props.class}!{" "}
+        I am {props.name}.... I am {props.name}!
       </h1>
     </div>
   );
@@ -224,7 +233,7 @@ const Hello = props => {
 const App = props => {
   return (
     <div>
-      <Hello name={"Jasmin"} class={"React 101"} />
+      <Greeting name={"Groot"} />
     </div>
   );
 };
@@ -234,13 +243,13 @@ export default App;
 
 ### State
 Key Takeaways:
-- `State` is a JavaScrip object which is defined in the constructor of a `Class component`
+- `State` is a JavaScript object which is defined in the constructor of a `Class component`
 - `State`'s purpose is to hold data for a component
 - You define variables within `state` which in turn can be accessed and rendered within a component
 - A parent component can pass it's own `state` to a child component in the form a `prop`
 
-### Rendering State - I Do
-Build a `Class` component that renders `state`. 
+### Rendering State: I Do
+Build a `Class` component that renders `state`.
 
 Example:
 ```jsx
@@ -251,16 +260,16 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      name: "Jasmin",
-      class: "React 101"
+      name: "Luke",
+      class: "How to use a lightsaber while blindfolded"
     };
   }
-  
+
   render() {
     return (
       <div>
         <h1>
-          Hello {this.state.name}, Welcome to {this.state.class}!
+          Hello {this.state.name}, Welcome to the course: {this.state.class}!
         </h1>
       </div>
     );
@@ -270,9 +279,9 @@ export default App;
 
 ```
 
-### Passing State and Rendering State - I Do
+### Passing State and Rendering State: I Do
 
-**Prompts**: 
+**Prompts**:
 - Create a `function` component called `Hello`
 	- It should expect to take in 2 `props`: `name` and `class` and render them in the following sentence:
 	- Hello <name-goes-here>, welcome to <class-goes-here>!
@@ -282,7 +291,7 @@ export default App;
 
 **Solution provided inside the lesson**
 
-### How do you conceptualize props and state - **Turn and Discuss**
+### How do you conceptualize props and state: Turn and Discuss
 Have student turn to their neighbor and discuss the following amongst themselves for 10 mins:
 - How they conceptualize props and state
 - What is the difference between prompts and state
@@ -314,7 +323,7 @@ This section is meant to provide multiple assessments that instructors can utili
 # Instructor Prep Section
 This section provides instructors extra details on the break down of this lesson.
 
-# Delivery Tips:
+## Delivery Tips
 
 * Think about how long you're talking
 * Move quicker sooner, slower later
@@ -322,7 +331,7 @@ This section provides instructors extra details on the break down of this lesson
 * Revisit LOs
 * Defer questions when appropriate
 
-## Legend:
+## Legend
 - I Do - Instructor-led demos
     - Students should `not` code along
 - We Do - Instructor-led demos
@@ -352,4 +361,4 @@ These links can also be helpful additions to provide students as aides to dive f
 - [A React Job Interview - Recruiter Perspective](https://medium.com/@baphemot/a-react-job-interview-recruiter-perspective-f1096f54dd16)
 
 # Survey and Feedback
-The Curriculum team loves constructive and creative feedback. Please feel free to fill out this survey and feedback [form](https://forms.gle/yaiUyN4YDSxFLp1s6) and we will do our best to accommodate your requests.       
+The Curriculum team loves constructive and creative feedback. Please feel free to fill out this survey and feedback [form](https://forms.gle/yaiUyN4YDSxFLp1s6) and we will do our best to accommodate your requests.
