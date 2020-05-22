@@ -367,4 +367,4 @@ This section is meant to provide multiple assessments that instructors can utili
     - `State`
 
 # Survey and Feedback
-The Curriculum team loves constructive and creative feedback. Please feel free to fill out this survey and feedback <a href="https://forms.gle/yaiUyN4YDSxFLp1s6" target="_blank">form</a> and we will do our best to accommodate your requests. and we will do our best to accommodate your requests.
+The Curriculum team loves constructive and creative feedback. Please feel free to fill out this survey and [feedback](https://forms.gle/yaiUyN4YDSxFLp1s6) and we will do our best to accommodate your requests. and we will do our best to accommodate your requests.

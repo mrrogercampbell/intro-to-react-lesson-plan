@@ -13,8 +13,10 @@ I have broken the entire document up by specific headers which represents the fo
     - These paragraphs will set the tone for the information that will be covered within the sub-section.
 - `H3 or ###`: Is the content that explains the concepts in detail via instructor explanations, interactive demos, individual activities, group activity, and more.
 
+[Click here](https://github.com/rc1336/intro-to-react-lesson-plan/blob/master/lesson-plan.md) to see Lesson Plan
+
 # Thought Process behind the Assessment Questions
-This question listed in the [Assessment Questions](https://github.com/rc1336/intro-to-react-lesson-plan/blob/master/README.md) section was composed with the intent of testing the student's comprehension of the entire lesson.
+This question listed in the [Assessment Questions](https://github.com/rc1336/intro-to-react-lesson-plan/blob/master/lesson-plan.md#check-for-understanding) section was composed with the intent of testing the student's comprehension of the entire lesson.
 
 Students must understand the main concepts of `props`, `state`, `functional`, and `class` components before moving on to any further lesson within React. In my experience, if students progress without these basic fundamentals they struggle throughout the entire unit of learning React. I added in the vocabulary words check so that the instructor can see where students have any misconceptions on key terms and then have the ability to correct them.
 
