@@ -1,6 +1,5 @@
 # Intro to React
 ![React Logo](https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png)
-![React Logo](https://probella.com/wp-content/uploads/2018/03/React-JS.png)
 
 # Instructor Prep Section
 This section provides instructors extra details on the break down of this lesson.
