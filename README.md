@@ -1,3 +1,88 @@
+# Instructor Prep Section
+This section provides instructors extra details on the break down of this lesson.
+
+## Legend
+- I Do - Instructor-led demos
+    - Students should **not** code along
+- We Do - Instructor-led demos
+    - Students should code along
+- You Do - Test for understanding
+    - Students should complete on their own
+    - They can ask for instructor assistance
+- Cold Call - Instructor calls on a random student(s) to answer prompt(s)
+- Turn and Discuss - Student-led dialogue
+    - Have students turn to their neighbor(s) and discuss the provided prompts
+    - If time permits:
+        - Once time allotted has lapsed the instructor should call on each group and have a representative talk about what their group discussed
+- Breakout Groups - Break students into small groups to work through provided prompts
+    - Typically 10-15 min time blocks
+
+## Delivery Tips
+<details>
+<summary>Prep Resources</summary>
+<br>
+<ul>
+  <li>Think about how long you&#39;re talking</li>
+  <li>Move quicker sooner, slower later</li>
+  <li>Cold Call more often</li>
+  <li>Revisit Learning Objects</li>
+  <li>Defer questions when appropriate</li>
+</ul>
+</details>
+
+
+## Prep Resources
+This section is meant to provide instructor helpful links that will assist them in preparing to teach this lesson. It should contain any resources that Curriculum Engineers used to write the lesson.
+
+These links can also be helpful additions to provide students as aides to dive further into the concepts taught within this lesson.
+<details>
+<summary>Prep Resources</summary>
+<br>
+<ul>
+  <li><a href="https://reactjs.org/docs/getting-started.html">React Documentation</a></li>
+  <li><a href="https://reactjs.org/tutorial/tutorial.html">React Docs: Tutorial - Intro to React</a></li>
+  <li><a href="https://www.w3schools.com/react/">W3Schools: React Tutorial</a></li>
+  <li><a href="https://scotch.io/starters/react/getting-started-with-react-2019-edition">Scotch.io: Getting Started with React</a></li>
+  <li><a href="https://www.codecademy.com/articles/react-virtual-dom">React: The Virtual DOM</a></li>
+  <li><a href="https://www.lullabot.com/articles/how-to-learn-react">How to Learn React: A Five-Step Plan</a></li>
+  <li><a href="https://medium.com/@baphemot/a-react-job-interview-recruiter-perspective-f1096f54dd16">A React Job Interview - Recruiter Perspective</a></li>
+</ul>
+
+</details>
+
+# Table of Content
+- [Instructor Prep Section](#instructor-prep-section)
+  - [Legend](#legend)
+  - [Delivery Tips](#delivery-tips)
+  - [Prep Resources](#prep-resources)
+- [Table of Content](#table-of-content)
+- [Intro to React](#intro-to-react)
+  - [Prerequisites](#prerequisites)
+  - [Learning Objectives](#learning-objectives)
+- [Lesson Outline:](#lesson-outline)
+  - [Thinking in React](#thinking-in-react)
+    - [What is a framework?](#what-is-a-framework)
+    - [DOM Manipulation in Vanilla JavaScript](#dom-manipulation-in-vanilla-javascript)
+    - [Vanilla JS DOM Manipulation Review: Cold Call or Breakout Groups](#vanilla-js-dom-manipulation-review-cold-call-or-breakout-groups)
+    - [The Virtual DOM](#the-virtual-dom)
+    - [JSX](#jsx)
+  - [Components](#components)
+    - [Functional Components](#functional-components)
+    - [Your First Component: We Do](#your-first-component-we-do)
+    - [Class Components](#class-components)
+    - [Your Second Component: We Do](#your-second-component-we-do)
+    - [Class vs Functional](#class-vs-functional)
+    - [Build Two Components: You Do](#build-two-components-you-do)
+  - [Props and State](#props-and-state)
+    - [Props](#props)
+    - [Rendering Props: I Do](#rendering-props-i-do)
+    - [State](#state)
+    - [Rendering State: I Do](#rendering-state-i-do)
+    - [Passing State and Rendering State: I Do](#passing-state-and-rendering-state-i-do)
+    - [How Do You Conceptualize Props and State: Turn and Discuss](#how-do-you-conceptualize-props-and-state-turn-and-discuss)
+  - [Check for Understanding](#check-for-understanding)
+- [Survey and Feedback](#survey-and-feedback)
+
 # Intro to React
 
 ## Prerequisites
@@ -20,39 +105,6 @@
         - Props and State
         - Class and Function Components
     - Be able to define and discuss all words in the `Vocabulary` section below
-
-# Table of Content
-- [Intro to React](#intro-to-react)
-  - [Prerequisites](#prerequisites)
-  - [Learning Objectives](#learning-objectives)
-- [Table of Content](#table-of-content)
-- [Lesson Outline:](#lesson-outline)
-  - [Thinking in React](#thinking-in-react)
-    - [What is a framework?](#what-is-a-framework)
-    - [DOM Manipulation in Vanilla JavaScript](#dom-manipulation-in-vanilla-javascript)
-    - [Vanilla JS DOM Manipulation Review: Cold Call or Breakout Groups](#vanilla-js-dom-manipulation-review-cold-call-or-breakout-groups)
-    - [The Virtual DOM](#the-virtual-dom)
-    - [JSX](#jsx)
-  - [Components](#components)
-    - [Functional Components](#functional-components)
-    - [Your First Component: We Do](#your-first-component-we-do)
-    - [Class Components](#class-components)
-    - [Your Second Component: We Do](#your-second-component-we-do)
-    - [Class vs Functional](#class-vs-functional)
-    - [Build Two Components: You Do](#build-two-components-you-do)
-  - [Props and State](#props-and-state)
-    - [Props](#props)
-    - [Rendering Props: I Do](#rendering-props-i-do)
-    - [State](#state)
-    - [Rendering State: I Do](#rendering-state-i-do)
-    - [Passing State and Rendering State: I Do](#passing-state-and-rendering-state-i-do)
-    - [How do you conceptualize props and state: Turn and Discuss](#how-do-you-conceptualize-props-and-state-turn-and-discuss)
-  - [Check for Understanding](#check-for-understanding)
-- [Instructor Prep Section](#instructor-prep-section)
-  - [Delivery Tips](#delivery-tips)
-  - [Legend](#legend)
-  - [Prep Resources](#prep-resources)
-- [Survey and Feedback](#survey-and-feedback)
 
 # Lesson Outline:
 
@@ -283,7 +335,7 @@ export default App;
 
 **Prompts**:
 - Create a `function` component called `Hello`
-	- It should expect to take in 2 `props`: `name` and `class` and render them in the following sentence:
+	- It should expect to take in two `props`: `name` and `class`; it should then render them in the following sentence:
 	- Hello <name-goes-here>, welcome to <class-goes-here>!
 - Refactor your previously created the `App` `Class` component so that it:
 	- Renders the `Hello` component as a child
@@ -291,10 +343,10 @@ export default App;
 
 **Solution provided inside the lesson**
 
-### How do you conceptualize props and state: Turn and Discuss
+### How Do You Conceptualize Props and State: Turn and Discuss
 Have student turn to their neighbor and discuss the following amongst themselves for 10 mins:
-- How they conceptualize props and state
-- What is the difference between prompts and state
+- How they conceptualize `props` and `state`
+- What is the difference between `props` and `state`
 - Talk about an instance within an application where they might need to pass `state` to another component
 - When might they need to only use `props` within a component
 
@@ -308,8 +360,8 @@ This section is meant to provide multiple assessments that instructors can utili
 2. What are the two main types of components you can declare in react?
 3. When should you use a `function` component over a `class` component?
 4. What is the difference between `props` and `state`?
-4. How do you pass the `state` of one component to another?
-5. Have each student in their own words define the following vocabulary words:
+5. How do you pass the `state` of one component to another?
+6. Have each student in their own words define the following vocabulary words:
     - `Framework`
     - `library`
     - `Virtual DOM`
@@ -319,46 +371,6 @@ This section is meant to provide multiple assessments that instructors can utili
     - `Class Components`
     - `Props`
     - `State`
-
-# Instructor Prep Section
-This section provides instructors extra details on the break down of this lesson.
-
-## Delivery Tips
-
-* Think about how long you're talking
-* Move quicker sooner, slower later
-* Cold Call more often
-* Revisit LOs
-* Defer questions when appropriate
-
-## Legend
-- I Do - Instructor-led demos
-    - Students should `not` code along
-- We Do - Instructor-led demos
-    - Students should code along
-- You Do - Test for understanding
-    - Students should complete on their own
-    - They can ask for instructor assistance
-- Cold Call - Instructor calls on a random student(s) to answer prompt(s)
-- Turn and Discuss - Student-led dialogue
-    - Have students turn to their neighbor(s) and discuss the provided prompts
-    - If time permits:
-        - Once time allotted has lapsed the instructor should call on each group and have a representative talk about what their group discussed
-- Breakout Groups - Break students into small groups to work through provided prompts
-    - Typically 10-15 min time blocks
-
-## Prep Resources
-This section is meant to provide instructor helpful links that will assist them in preparing to teach this lesson. It should contain any resources that Curriculum Engineers used to write the lesson.
-
-These links can also be helpful additions to provide students as aides to dive further into the concepts taught within this lesson.
-
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [React Docs: Tutorial - Intro to React](https://reactjs.org/tutorial/tutorial.html)
-- [W3Schools: React Tutorial](https://www.w3schools.com/react/)
-- [Scotch.io: Getting Started with React](https://scotch.io/starters/react/getting-started-with-react-2019-edition)
-- [React: The Virtual DOM](https://www.codecademy.com/articles/react-virtual-dom)
-- [How to Learn React: A Five-Step Plan](https://www.lullabot.com/articles/how-to-learn-react)
-- [A React Job Interview - Recruiter Perspective](https://medium.com/@baphemot/a-react-job-interview-recruiter-perspective-f1096f54dd16)
 
 # Survey and Feedback
 The Curriculum team loves constructive and creative feedback. Please feel free to fill out this survey and feedback [form](https://forms.gle/yaiUyN4YDSxFLp1s6) and we will do our best to accommodate your requests.
